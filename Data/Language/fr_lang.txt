@@ -1,0 +1,333 @@
+19
+0000
+ERREUR
+0001
+Erreur d'origine inconnue
+0002
+Choix non valide
+0003
+La date saisie doit etre posterieure a la naissance de l'auteur
+0004
+La date saisie doit être anterieure a son deces et a la parution de son premier livre
+0005
+Saisie non valide
+0006
+Le nombre de pages doit être positif
+0007
+Le jour doit etre compris entre 1 et 31
+0008
+Le mois doit etre compris entre 1 et 12
+0009
+La date saisie n'existe pas, Veuillez recommencer :
+1001
+Il n'y a aucun livre dans la bibliotheque
+1002
+Il n'y a aucun auteur dans la bibliotheque
+1003
+Il n'y a pas de livre correspondant a la recherche
+1004
+Il n'y a pas d'auteur correspondant a la recherche
+1005
+Le livre recherche n'existe pas dans la bibliotheque
+1006
+L'auteur recherche n'existe pas dans la bibliotheque
+1007
+Un livre de ce nom existe deja chez l'auteur
+2001
+Saisie impossible, le nombre maximum de livres est atteint
+2002
+Saisie impossible, le nombre maximum d'auteurs est atteint
+76
+0001
+Livre numero 
+0002
+Titre du livre
+0003
+Auteur du livre
+0004
+Date de parution
+0005
+Nombre de pages
+0006
+Saisissez le titre du livre
+0007
+Saisissez le nombre de pages du livre
+0008
+Saisissez la date de parution du livre
+0009
+Il n'y a qu'un seul livre correspondant a la recherche
+0010
+Numero 
+0011
+Lequel voulez vous choisir ?
+0012
+Veillez saisir un entier de la liste
+0013
+Celui-ci vous convient-il ? (o/n)
+0014
+Veuillez saisir la date de deces de l'auteur
+0015
+Auteur numero 
+0016
+Nom de l'auteur
+0017
+Prenom de l'auteur
+0018
+Nationalite de l'auteur
+0019
+Date de naissance
+0020
+Date de décès
+0021
+Nombre de livres de l'auteur
+0022
+Saisissez le nom de l'auteur
+0023
+Saisissez le prenom de l'auteur
+0024
+Saisissez la nationalite de l'auteur
+0025
+Saisissez le nombre de livres de l'auteur
+0026
+Saisissez la date de naissance de l'auteur
+0027
+Saisissez la date de parution du livre
+0028
+Saisissez l'ID de l'auteur
+0029
+Il n'y a qu'un seul auteur correspondant a la recherche
+0030
+Celui-ci vous convient-il ou voulez vous quitter ? (o/n/q)
+0031
+--
+0032
+--
+0033
+--
+0034
+Veuillez saisir un titre compose de caracteres
+0035
+Veuillez saisir un nouvel auteur
+0036
+Voulez vous ajouter un auteur ? (o/n)
+0037
+Livre ajoute avec succes !
+0038
+Nouveau titre du livre
+0039
+Modification annulee !
+0040
+Modification effectuee avec succes !
+0041
+Nouvel auteur de 
+0042
+Saississez le nouvel auteur de 
+0043
+Nouvelle date de parution du livre
+0044
+Nouveau nombre de page du livre
+0045
+Voulez vous supprimer le livre ? (o/n)
+0046
+Voulez vous supprimer aussi l'auteur ? (o/n)
+0047
+Suppression effectuee avec succes !
+0048
+Suppression annulee !
+0049
+Veuillez saisir un nom d'auteur compose de caracteres
+0050
+Veuillez saisir un prenom d'auteur compose de caracteres
+0051
+Veuillez saisir une nationalite compose de caracteres
+0052
+L'auteur est il mort ? (o/n)
+0053
+Auteur cree avec succes !
+0054
+ID auteur
+0055
+Nouveau nom de l'auteur
+0056
+Nouveau prenom de l'auteur
+0057
+Nouvelle nationnalite de l'auteur
+0058
+Nouvelle date de naissance de l'auteur
+0059
+Nouvelle date de deces de l'auteur
+0060
+Voulez vous supprimer l'auteur ? (o/n)
+0061
+Les livres de l'auteur vont etres supprimes
+0062
+                          Quel est votre choix
+0063
+ a ete supprime avec succes !
+0064
+Affichage de tous les livres de la bibliotheque
+0065
+Veuillez saisir les donnees du nouveau livre
+0066
+Bibliotheque reinitialisee !
+0067
+Sauvegarde faite !
+0068
+Voulez vous sauvegarder avant de quitter ? (o/n)
+0069
+Langue changee !
+0070
+Affichage de tous les auteurs de la bibliotheque
+0071
+Veuillez saisir les donnees du nouveau livre
+0072
+Veuillez saisir de nouveau le jour
+0073
+Veuillez saisir de nouveau le mois
+0074
+Jour
+0075
+Mois
+0076
+Annee
+13
+1001
+9
+       ###########################################################
+       #                Menu de recherche de livre               #
+       #                                                         #
+       # 1- Rechercher par le titre                              #
+       # 2- Rechercher par l'auteur                              #
+       # 3- Rechercher par le nombre de pages                    #
+       # 4- Rechercher par la date de parution                   #
+       # 5- Retour                                               #
+       ###########################################################
+1002
+12
+       ###########################################################
+       #                Menu de recherche d'auteur               #
+       #                                                         #
+       # 1- Rechercher par le nom                                #
+       # 2- Rechercher par le prenom                             #
+       # 3- Rechercher par nationalite                           #
+       # 4- Rechercher par le nombre de livres                   #
+       # 5- Rechercher par la date de naissance                  #
+       # 6- Rechercher par la date de deces                      #
+       # 7- Rechercher par l'ID de l'auteur                      #
+       # 8- Retour                                               #
+       ###########################################################
+1003
+9
+       ###########################################################
+       #             Menu de modification d'un livre             #
+       #                                                         #
+       # 1- Modifier le titre                                    #
+       # 2- Modifier l'auteur                                    #
+       # 3- Modifier la date de parution                         #
+       # 4- Modifier le nombre de pages                          #
+       # 5- Retour                                               #
+       ###########################################################
+1004
+10
+       ###########################################################
+       #             Menu de modification d'un auteur            #
+       #                                                         #
+       # 1- Modifier le nom                                      #
+       # 2- Modifier le prenom                                   #
+       # 3- Modifier la nationalite                              #
+       # 4- Modifier la date de naissance                        #
+       # 5- Modifier la date de deces                            #
+       # 6- Retour                                               #
+       ###########################################################
+1005
+8
+       ###########################################################
+       #                      Menu principal                     #
+       #                                                         #
+       # 1- Affichage de la bibliotheque                         #
+       # 2- Gestion de la bibliotheque                           #
+       # 3- Options                                              #
+       # 4- Quitter                                              #
+       ###########################################################
+1006
+7
+       ###########################################################
+       #                     Menu d'affichage                    #
+       #                                                         #
+       # 1- Affichage des livres                                 #
+       # 2- Affichage des auteurs                                #
+       # 3- Retour                                               #
+       ###########################################################
+1007
+7
+       ###########################################################
+       #               Menu d'affichage des livres               #
+       #                                                         #
+       # 1- Affichage de tous les livres                         #
+       # 2- Rechercher un livre                                  #
+       # 3- Retour                                               #
+       ###########################################################
+1008
+7
+       ###########################################################
+       #               Menu d'affichage des auteurs              #
+       #                                                         #
+       # 1- Affichage de tous les auteurs                        #
+       # 2- Rechercher un auteur                                 #
+       # 3- Retour                                               #
+       ###########################################################
+1009
+7
+       ###########################################################
+       #            Menu de gestion de la bibliotheque           #
+       #                                                         #
+       # 1- Gestion des livres                                   #
+       # 2- Gestion des auteurs                                  #
+       # 3- Retour                                               #
+       ###########################################################
+1010
+8
+       ###########################################################
+       #                Menu de gestion des livres               #
+       #                                                         #
+       # 1- Ajouter un livre                                     #
+       # 2- Modifier un livre                                    #
+       # 3- Supprimer un livre                                   #
+       # 4- Retour                                               #
+       ###########################################################
+1011
+8
+       ###########################################################
+       #                Menu de gestion des auteurs              #
+       #                                                         #
+       # 1- Ajouter un auteur                                    #
+       # 2- Modifier un auteur                                   #
+       # 3- Supprimer un auteur                                  #
+       # 4- Retour                                               #
+       ###########################################################
+1012
+8
+       ###########################################################
+       #                     Menu des options                    #
+       #                                                         #
+       # 1- Reinitialiser la bibliotheque                        #
+       # 2- Sauvegarder la bibliotheque                          #
+       # 3- Changer la langue                                    #
+       # 4- Retour                                               #
+       ###########################################################
+1013
+7
+       ###########################################################
+       #                     Menu des langues                    #
+       #                                                         #
+       # 1- Francais                                             #
+       # 2- Anglais                                              #
+       # 3- Retour                                               #
+       ###########################################################
+3
+01
+o
+02
+n
+03
+q
