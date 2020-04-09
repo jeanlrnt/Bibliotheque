@@ -99,7 +99,7 @@ Il n'y a qu'un seul auteur correspondant a la recherche
 0030
 Celui-ci vous convient-il ou voulez vous quitter ? (o/n/q)
 0031
---
+Appuyez sur nimporte quelle touche pour continuer..
 0032
 --
 0033

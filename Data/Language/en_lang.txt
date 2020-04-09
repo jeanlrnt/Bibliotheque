@@ -99,7 +99,7 @@ There is only one author find from this research
 0030
 This one suits you or do you want to leave ? (y/n/q)
 0031
---
+Tap any touch to continue..
 0032
 --
 0033

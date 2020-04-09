@@ -13,14 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="biblio.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="tools.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <Filter Include="Fichiers de ressources\Lang">
+      <UniqueIdentifier>{cf48222c-cc5f-4b5a-bea6-d247ac7906eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="biblio.cpp">
@@ -34,14 +29,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="biblio.txt">
-      <Filter>Fichiers sources</Filter>
+    <ClInclude Include="biblio.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\fichier.txt">
+      <Filter>Fichiers de ressources</Filter>
     </Text>
-    <Text Include="main.txt">
-      <Filter>Fichiers sources</Filter>
+    <Text Include="Data\Language\en_lang.txt">
+      <Filter>Fichiers de ressources\Lang</Filter>
     </Text>
-    <Text Include="tools.txt">
-      <Filter>Fichiers sources</Filter>
+    <Text Include="Data\Language\fr_lang.txt">
+      <Filter>Fichiers de ressources\Lang</Filter>
     </Text>
   </ItemGroup>
 </Project>
